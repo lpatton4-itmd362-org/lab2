@@ -1,0 +1,49 @@
+html{
+	line-height: 1.2em;
+	font-family: Georgia, serif;
+	background-color: #B8DBD9;
+}
+
+#wrapper{
+	margin: 30px auto;
+	width: 90%;
+}
+
+fieldset{
+	background-color: #586F7C;
+}
+
+legend{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	background-color: #f4f4f9;
+}
+
+label{
+  color: #F4F4F9;
+	font-size: 20px;
+}
+
+input{
+	width: 80%;
+	padding: 5px;
+}
+
+div{
+	padding: 5px;
+}
+
+@media screen and (min-width: 480px){
+	fieldset{
+		text-align: center;
+	}
+	
+	div{
+		padding: 20px;
+	}
+	
+	input{
+		width: 40%;
+	}
+}

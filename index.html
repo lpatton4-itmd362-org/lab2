@@ -9,22 +9,22 @@
 </head>
 <body>
   <form action="#null" method="get" autocomplete="on">
-	  <fieldset>
+	  <fieldset id="wrapper">
 		<legend>Please enter the indicated information below, then click 'Submit'</legend>
 		  <div>
-			  <label>First Name: <input type="text" name="text"></label>
+			  <label>Full Name: <input type="text" name="fullname"></label>
 			</div>
 	    <div>
-		    <label>Email: <input type="email" name="email"></label>
+		    <label>Email Address: <input type="email" name="email"></label>
 		  </div>
 		  <div>
-		    <label>Phone Number: <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+		    <label>Phone Number: <input type="tel" name="phone" placeholder="XXX-XXX-XXXX"></label>
 		  </div>
 		  <div>
-		    <label>Date of Birth: <input type="date"></label>
+		    <label>Date of Birth: <input type="date" name="birthdate"></label>
 		  </div>
 		  <div>
-		    <input type="submit" value="Submit">
+		    <input type="submit" value="Submit" id="subbutton">
 		  </div>
 		</fieldset>
 	</form>

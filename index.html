@@ -9,18 +9,21 @@
 </head>
 <body>
   <form action="#null" method="get" autocomplete="on">
-	  <div>
-		  <label>Email: <input type="email" name="email"></label>
-		</div>
-		<div>
-		  <label>Phone Number: <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
-		</div>
-		<div>
-		  <label>Date of Birth: <input type="date" value="2021-09-28"></label>
-		</div>
-		<div>
-		  <input type="submit" value="Enter">
-		</div>
+	  <fieldset>
+		<legend>Please enter the indicated information below</legend>
+	    <div>
+		    <label>Email: <input type="email" name="email"></label>
+		  </div>
+		  <div>
+		    <label>Phone Number: <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+		  </div>
+		  <div>
+		    <label>Date of Birth: <input type="date" value="2021-09-28"></label>
+		  </div>
+		  <div>
+		    <input type="submit" value="Enter">
+		  </div>
+		</fieldset>
 	</form>
 </body>
 </html>

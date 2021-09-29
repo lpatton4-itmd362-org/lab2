@@ -10,7 +10,10 @@
 <body>
   <form action="#null" method="get" autocomplete="on">
 	  <fieldset>
-		<legend>Please enter the indicated information below</legend>
+		<legend>Please enter the indicated information below, then click 'Submit'</legend>
+		  <div>
+			  <label>First Name: <input type="text" name="text"></label>
+			</div>
 	    <div>
 		    <label>Email: <input type="email" name="email"></label>
 		  </div>
@@ -18,10 +21,10 @@
 		    <label>Phone Number: <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
 		  </div>
 		  <div>
-		    <label>Date of Birth: <input type="date" value="2021-09-28"></label>
+		    <label>Date of Birth: <input type="date"></label>
 		  </div>
 		  <div>
-		    <input type="submit" value="Enter">
+		    <input type="submit" value="Submit">
 		  </div>
 		</fieldset>
 	</form>
